@@ -1,0 +1,125 @@
+# HtmlTutorials
+## Sık kullanılan HTML etiketleri ve anlamları
+#### https://www.w3schools.com/TAGS/default.asp
+- `<!--...-->` Bir yorumu tanımlar
+- `<!DOCTYPE>` Belge türünü tanımlar
+- `<a>` Bir köprü metni tanımlar
+- `<abbr>` Bir kısaltma veya baş harf kısaltması tanımlar
+- `<acronym>` HTML5'te desteklenmez. Bunun yerine `<abbr>` kullanın. Bir baş harf kısaltması tanımlar
+- `<address>` Bir belgenin yazarı/sahibi için iletişim bilgilerini tanımlar
+- `<applet>` HTML5'te desteklenmez. Bunun yerine `<embed>` veya `<object>` kullanın. Gömülü bir applet tanımlar
+- `<area>` Bir resim haritasının içindeki bir alanı tanımlar
+- `<article>` Bir makale tanımlar
+- `<aside>` Sayfa içeriğinden ayrı bir içerik tanımlar
+- `<audio>` Gömülü ses içeriğini tanımlar
+- `<b>` Kalın metni tanımlar
+- `<base>` Bir belgedeki tüm göreli URL'ler için temel URL/hedefi belirtir
+- `<basefont>` HTML5'te desteklenmez. Bunun yerine CSS kullanın. Bir belgedeki tüm metinler için varsayılan bir renk, boyut ve yazı tipi belirtir
+- `<bdi>` Metnin, dışındaki diğer metinden farklı bir yönde biçimlendirilebilecek bir bölümünü izole eder
+- `<bdo>` Geçerli metin yönünü geçersiz kılar
+- `<big>` HTML5'te desteklenmez. Bunun yerine CSS kullanın. Büyük metni tanımlar
+- `<blockquote>` Başka bir kaynaktan alıntılanan bir bölümü tanımlar
+- `<body>` Belgenin gövdesini tanımlar
+- `<br>` Tek bir satır sonu tanımlar
+- `<button>` Tıklanabilir bir düğme tanımlar
+- `<canvas>` Komut dosyası (genellikle JavaScript) aracılığıyla anında grafik çizmek için kullanılır
+- `<caption>` Bir tablo başlığı tanımlar
+- `<center>` HTML5'te desteklenmez. Bunun yerine CSS kullanın. Ortalanmış metni tanımlar
+- `<cite>` Bir eserin başlığını tanımlar
+- `<code>` Bir bilgisayar kodu parçasını tanımlar
+- `<col>` Bir `<colgroup>` öğesindeki her sütun için sütun özelliklerini belirtir
+- `<colgroup>` Biçimlendirme için bir tabloda bir veya daha fazla sütun grubunu belirtir
+- `<data>` Belirli bir içeriğin makine tarafından okunabilir bir çevirisini ekler
+- `<datalist>` Giriş denetimleri için önceden tanımlanmış seçenekler listesini belirtir
+- `<dd>` Bir açıklama listesindeki bir terimin açıklamasını/değerini tanımlar
+- `<del>` Bir belgeden silinen metni tanımlar
+- `<details>` Kullanıcının görüntüleyebileceği veya gizleyebileceği ek ayrıntıları tanımlar
+- `<dfn>` İçerik içinde tanımlanacak bir terimi belirtir
+- `<dialog>` Bir iletişim kutusu veya pencere tanımlar
+- `<dir>` HTML5'te desteklenmez. Bunun yerine `<ul>` kullanın. Bir dizin listesi tanımlar
+- `<div>` Bir belgedeki bölümü tanımlar
+- `<dl>` Bir açıklama listesi tanımlar
+- `<dt>` Bir açıklama listesindeki terimi/adı tanımlar
+- `<em>` Vurgulanan metni tanımlar
+- `<embed>` Harici bir uygulama için bir kapsayıcı tanımlar
+- `<fieldset>` Bir formdaki ilgili öğeleri gruplandırır
+- `<figcaption>` Bir `<figure>` öğesi için bir başlık tanımlar
+- `<figure>` Bağımsız içeriği belirtir
+- `<font>` HTML5'te desteklenmez. Bunun yerine CSS kullanın. Metin için yazı tipi, renk ve boyut tanımlar
+- `<footer>` Bir belge veya bölüm için bir altbilgi tanımlar
+- `<form>` Kullanıcı girişi için bir HTML formu tanımlar
+- `<frame>` HTML5'te desteklenmez. Bir çerçeve kümesinde bir pencereyi (bir çerçeveyi) tanımlar
+- `<frameset>` HTML5'te desteklenmez. Bir çerçeve kümesini tanımlar
+- `<h1>` ila `<h6>` HTML başlıklarını tanımlar
+- `<head>` Belge için meta veri/bilgi içerir
+- `<header>` Bir belge veya bölüm için bir başlık tanımlar
+- `<hgroup>` Bir başlık ve ilgili içeriği tanımlar
+- `<hr>` İçerikte tematik bir değişikliği tanımlar
+- `<html>` Bir HTML belgesinin kökünü tanımlar
+- `<i>` Metnin bir bölümünü alternatif bir ses veya ruh hali içinde tanımlar
+- `<iframe>` Satır içi bir çerçeve tanımlar
+- `<img>` Bir görüntü tanımlar
+- `<input>` Bir giriş denetimi tanımlar
+- `<ins>` Bir belgeye eklenen bir metni tanımlar
+- `<kbd>` Klavye girişini tanımlar
+- `<label>` Bir `<input>` öğesi için bir etiket tanımlar
+- `<legend>` Bir `<fieldset>` öğesi için bir başlık tanımlar
+- `<li>` Bir liste öğesini tanımlar
+- `<link>` Bir belge ile harici bir kaynak arasındaki ilişkiyi tanımlar (çoğunlukla stil sayfalarına bağlanmak için kullanılır)
+- `<main>` Bir belgenin ana içeriğini belirtir
+- `<map>` Bir görüntü haritasını tanımlar
+- `<mark>` İşaretli/vurgulanmış metni tanımlar
+- `<menu>` Sıralanmamış bir liste tanımlar
+- `<meta>` Bir HTML belgesi hakkında meta veri tanımlar
+- `<meter>` Bilinen bir aralıktaki skaler bir ölçümü tanımlar (bir gösterge)
+- `<nav>` Gezinme bağlantılarını tanımlar
+- `<noframes>` HTML5'te desteklenmez. Çerçeveleri desteklemeyen kullanıcılar için alternatif bir içerik tanımlar
+- `<noscript>` İstemci tarafı betiklerini desteklemeyen kullanıcılar için alternatif bir içerik tanımlar
+- `<object>` Harici bir uygulama için bir kapsayıcı tanımlar
+- `<ol>` Sıralı bir liste tanımlar
+- `<optgroup>` Açılır listede ilgili seçenekler grubunu tanımlar
+- `<option>` Açılır listede bir seçeneği tanımlar
+- `<output>` Bir hesaplamanın sonucunu tanımlar
+- `<p>` Bir paragraf tanımlar
+- `<param>` Bir nesne için bir parametre tanımlar
+- `<picture>` Birden fazla resim kaynağı için bir kapsayıcı tanımlar
+- `<pre>` Önceden biçimlendirilmiş metni tanımlar
+- `<progress>` Bir görevin ilerlemesini temsil eder
+- `<q>` Kısa bir alıntı tanımlar
+- `<rp>` Ne gösterileceğini tanımlar ruby açıklamalarını desteklemeyen tarayıcılar
+- `<rt>` Karakterlerin açıklamasını/telaffuzunu tanımlar (Doğu Asya tipografisi için)
+- `<ruby>` Ruby açıklamasını tanımlar (Doğu Asya tipografisi için)
+- `<s>` Artık doğru olmayan metni tanımlar
+- `<samp>` Bir bilgisayar programından örnek çıktıyı tanımlar
+- `<script>` Bir istemci tarafı betiğini tanımlar
+- `<search>` Bir arama bölümünü tanımlar
+- `<section>` Bir belgedeki bölümü tanımlar
+- `<select>` Bir açılır listeyi tanımlar
+- `<small>` Daha küçük metni tanımlar
+- `<source>` Medya öğeleri için birden fazla medya kaynağı tanımlar (`<video>` ve `<audio>`)
+- `<span>` Bir belgedeki bölümü tanımlar
+- `<strike>` HTML5'te desteklenmez. Bunun yerine `<del>` veya `<s>` kullanın. Üstü çizili metni tanımlar
+- `<strong>` Önemli metni tanımlar
+- `<style>` Bir belge için stil bilgilerini tanımlar
+- `<sub>` Alt simgeli metni tanımlar
+- `<summary>` Bir `<details>` öğesi için görünür bir başlık tanımlar
+- `<sup>` Üst simgeli metni tanımlar
+- `<svg>` SVG grafikleri için bir kapsayıcı tanımlar
+- `<table>` Bir tablo tanımlar
+- `<tbody>` Bir tablodaki gövde içeriğini gruplandırır
+- `<td>` Bir tablodaki bir hücreyi tanımlar
+- `<template>` Sayfa yüklendiğinde gizlenmesi gereken içerik için bir kapsayıcı tanımlar
+- `<textarea>` Çok satırlı bir giriş denetimini (metin alanı) tanımlar
+- `<tfoot>` Bir tablodaki alt bilgi içeriğini gruplandırır
+- `<th>` Bir tablodaki bir başlık hücresini tanımlar
+- `<thead>` Başlık içeriğini bir tabloda gruplandırır
+- `<time>` Belirli bir zamanı (veya tarih saatini) tanımlar
+- `<title>` Belge için bir başlık tanımlar
+- `<tr>` Tabloda bir satırı tanımlar
+- `<track>` Medya öğeleri için metin parçalarını tanımlar (`<video>` ve `<audio>`)
+- `<tt>` HTML5'te desteklenmez. Bunun yerine CSS kullanın. Teletype metnini tanımlar
+- `<u>` Normal metinden farklı şekilde biçimlendirilmiş ve ifade edilmemiş bazı metinleri tanımlar
+- `<ul>` Sıralanmamış bir liste tanımlar
+- `<var>` Bir değişkeni tanımlar
+- `<video>` Gömülü video içeriğini tanımlar
+- `<wbr>` Olası bir satır sonunu tanımlar
