@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-BasicSelectors</title>
+    <style>
+        /* h1{
+            color: red;
+            background: blue;
+        }
+        p{
+            color: red;
+            background: blue;
+        } */
+        /* h1,p{
+            color: red;
+            background: blue;
+        } */
+        /* #logo{
+            color: red;
+            background: blue;
+        } */
+        /* #logo, .lead{
+            color: red;
+            background: blue;
+        } */
+        /* .info#para1{
+            color: red;
+        } */
+        /* a{
+            text-decoration: none;
+        } */
+        /* ul li a{
+            color: red;
+        } */
+        /* .info span{
+            color: red;
+        } */
+        /* .info .primary{
+            color: red;
+        } */
+        *{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p id="para1" class="lead info">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorum?
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary">dolor</span>  sit amet consectetur adipisicing elit. Quod, exercitationem.
+    </p>
+    <p class="info">
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Asperiores, odit.
+    </p>
+    <p>Test Paragraph</p>
+    <a href="#">Home</a>
+</body>
+</html>
+<!--
+selectors
+'.[class name]' - ile başlarsa class içeriğinde olanları seçer
+'#[id name]' - ile başlarsa id eşleşeni seçer
+'p', 'h1,p' - html etiketini seçer
+',' - virgül ile ayırarak birden fazla seçim için aynı özellikler atanabilir.
+
+virgül koymadan birleşik yazıldığında da seçim kısıtlanarak 2 özellik aynı anda olanlar aranır
+önce id sonra class yazmak ile önce class sonra id yazmak sorun çıkarmıyor
+
+html etiketi seçerken kısıtlama için boşluk kullanarak hiyerarşik seçim yapılabiliyor
+'ul li a' - ul içindeki, li içindeki a'yı bul ve onu şekillendir
+
+aynı hiyerarşik seçim class ve id için de yapılabilir. boşluk ekleyerek yapılıyor.
+
+'*' ile tüm etiketler seçiliyor. 
+Tarayıcıdan kaynaklı varsayılan ayarlar site görünümünü bozmasın diye kullanılıyor
+
+Daha fazla bilgi için
+https://www.w3schools.com/cssref/css_selectors.php
+
+text-decoration: none; altı çizili özelliği kaldırıyor
+font-size: 30px; yazı boyutunu ayarlar
+-->
