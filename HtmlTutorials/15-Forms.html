@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-Forms</title>
+</head>
+<body>
+    <form>
+        <!--HTML5 Input-->
+        Name <br>
+        <input type="text">
+        <br><br>
+        <label for="Surname">Surname</label> <br>
+        <input type="text" id="Surname">
+        <br><br>
+        <label for="mail">Mail</label><br>
+        <input type="email" id="mail" name="mail">
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date">
+        <br><br>
+        Gender <br>
+        <input type="radio" name="gender" value="male">
+        Male <br>
+        <input type="radio" name="gender" value="famale">
+        Famale <br>
+        <input type="radio" name="gender" value="other" checked>
+        Other
+        <br><br>
+        Hobbies <br>
+        <input type="checkbox" name="tech" id="tech">Tech <br>
+        <input type="checkbox" name="music" id="music">Music <br>
+        <input type="checkbox" name="art" id="art">Art
+        <br><br>
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="bechelor">Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd" selected>Doktora</option>
+        </select>
+        <br><br>
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="Your message"></textarea>
+        
+        <br><br>
+        <input type="submit" value="Send"><br><br>
+        <button type="submit">Send</button><br><br>
+        <input type="reset">
+        
+    </form>
+</body>
+</html>
+<!--
+Formlar ve Inputlar görülecek
+Bir çok özellik var ancak en sık görülenlere bakmak daha mantıklı
+Zamanla kullandıkça akılda kalacaktır.
+Daha fazla bilgi için
+https://www.w3schools.com/html/html_forms.asp
+
+<form action=""></form> form oluşturmak için bu etiket kullanılır. Inputlar bu etiketin içine yazılır.
+action attribute - formun içindeki verileri action içinde tanımlanan backend programına gönderir.
+method attribute - GET, POST request tanımlanabilir ancak şuanda lazım değil.
+
+<input type="text"> image etiketi gibi buda kapanmayan bir etiket. Giriş yapılacak alan oluşturur
+varsayılan olarak attribute text input tanımlandı. input inline bir element. br etiketi ile alt satıra aldık
+
+name kısmında yazıya tıklamak bir işe yaramıyor. 
+ancak biz input'a focuslamak için label kullanarak input elementine bağlantı kurabiliriz.
+
+mail kısmında ise name attribute kullanıldı. bu sayede backend kısmı bu input'a ulaşabilecek.
+type="email" seçildiğinde HTML5 otomatik olarak validation yapacak ve submit işlemi kabul edilmeyecek.
+
+<input type="submit"> bu bir buton oluşturuyor. action kısmına yazılan işlemi çağırıyor.
+<button></button> etiketi ile de aynı işlem yapılabilir
+<input type="reset"> kullanarak göndermeden tek buton ile sayfayı temizleme işlemi yapar.
+
+<br> css öğrenmediğimiz için çok fazla kullandık. öğrendikten sonra gerek kalmayacak.
+
+type="password" ayarladık ama yukarıda POST işlemi sırasında parola göründü. Ne saçma.
+Kesinlikle bir yolu vardır. Bakılacak.
+
+type="date" kullanarak tarih seçilen bir input oluşturulmuş olur. HTML5 bunu otomatik yapar.
+
+type="radio" ile sadece 1 tane seçim yapılabilen radio buton oluşturuldu
+name="gender" sayesinde de gruplandırıldı. farklı bir isim verilseydi sadece 1 tane seçim yapılamazdı.
+type="checkbox" kullanarak işaretlenebilir checkbox oluşturuldu
+checked attribute ile varsayılan işaretli şekilde gösterilebilir.
+
+<select name="" id=""></select> ile dropdown liste oluşturulabiliyor
+<option value=""></option> ile de listenin elemanları oluşturulabiliyor.
+selected kullanarak  varsayılan seçim değiştirilebilir.
+
+<textarea name="" id=""></textarea> kullanıcının çok satırlı yazılar yazabileceği bir alan açılmış olur.
+kullanıcı büyütüp küçültebilir. col ve row verilebilir.
+placeholder kullanarak kullanıcıyı yönlendiren geçici yazılar da yazılabilir.
+-->
